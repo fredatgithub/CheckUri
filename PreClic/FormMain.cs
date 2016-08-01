@@ -1595,7 +1595,7 @@ namespace PreClic
         string cellValue = dataGridViewMain.CurrentCell.Value.ToString();
         int currentRow = 1;
         tabControlMain.SelectedIndex = 2;
-        textBoxWebBrowserUrl.Text = "";
+        textBoxWebBrowserUrl.Text = string.Empty;
       }
     }
 
